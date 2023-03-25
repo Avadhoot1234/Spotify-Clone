@@ -1,0 +1,114 @@
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.brand img{
+    width: 44px;
+    padding:0 8px;
+}
+
+nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav ul{
+    align-items:center;
+    display:flex;
+    list-style-type: none;
+    height:65px;
+    background-color: black;
+    color:white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height:72vh;
+    background-color:black;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    width:70%;
+    margin:23px auto;
+    border-radius: 12px;
+    padding:14px;
+    background-image: url("bg.jpg");
+    background-size: 920px;
+}
+
+.bottom{
+    position:sticky;
+    background-color: black;
+    color: white;
+    height:130px;
+    bottom:0;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.icons{
+    margin-top:14px;
+}
+
+.icons i{
+    cursor:pointer;
+}
+
+#myProgressBar{
+    width:80vw;
+    text-align:center;
+}
+
+.songItem{
+    height:50px;
+    display:flex;
+    background-color:black;
+    color:white;
+    width:25rem;
+    margin:12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+
+.songItem img{
+    width:43px;
+    margin: 0 23px;
+}
+
+.songItem i{
+    margin-right: 10px;
+    cursor:pointer;
+}
+
+.SongInfo{
+    position:absolute;
+    left:10vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.SongInfo img{
+    opacity:0;
+    transition:opacity 0.4s ease-in;
+}
+
+.Text{
+    padding:10px;
+}

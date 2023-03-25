@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Spotify icon.png" alt="logo">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist"></div>
+        <div class="songItemContainer">
+            <h1>Best of Imagine Dragons</h1>
+            <div class="songItem">
+                <img src="cover1.jpg" alt="1">
+                <span class="songName">Bones</span>
+                <span class="songlistplay"><span class="TimeStamp">2:46</span><i id="0" class="far songItemPlay songItemPlay  fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover2.jpg" alt="1">
+                <span class="songName">RadioActive</span>
+                <span class="songlistplay"><span class="TimeStamp">3:07</span><i id="1" class="far songItemPlay fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover3.jpg" alt="1">
+                <span class="songName">Believer</span>
+                <span class="songlistplay"><span class="TimeStamp">2:46</span><i id="2" class="far songItemPlay songItemPlay fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover4.jpeg" alt="1">
+                <span class="songName">It's Time</span>
+                <span class="songlistplay"><span class="TimeStamp">2:46</span><i id="3" class="far songItemPlay songItemPlay fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover5.jpg" alt="1">
+                <span class="songName">On Top Of The World</span>
+                <span class="songlistplay"><span class="TimeStamp">2:46</span><i id="4" class="far songItemPlay songItemPlay fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover6.jpg" alt="1">
+                <span class="songName">Demons</span>
+                <span class="songlistplay"><span class="TimeStamp">2:46</span><i id="5" class="far songItemPlay songItemPlay fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover7.jpg" alt="1">
+                <span class="songName">Thunder</span>
+                <span class="songlistplay"><span class="TimeStamp">2:46</span><i id="6" class="far songItemPlay songItemPlay fa-play-circle"></i></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover8.jpg" alt="1">
+                <span class="songName">Enemy</span>
+                <span class="songlistplay"><span class="TimeStamp">2:46</span><i id="7" class="far songItemPlay songItemPlay fa-play-circle"></i></span>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100" >
+        <div class="icons">
+            <i  class="fas fa-3x fa-step-backward"></i>
+            <i  class="fas fa-3x fa-play-circle" id="masterplay"></i>
+            <i  class="fas fa-3x fa-step-forward"></i>
+        </div>
+        <div class="SongInfo">
+            <img src="gif1.gif" width="30px" height="30px" id="gif"><span class="Text">Bones</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/022aa7cc64.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
